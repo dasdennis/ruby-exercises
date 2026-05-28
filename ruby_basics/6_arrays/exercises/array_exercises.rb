@@ -1,9 +1,15 @@
 def nil_array(number)
   # return an array containing `nil` the given number of times
+  # Array.new(5)
+
+  # a = [nil, nil]
+  # p a
+  Array.new(number)
 end
 
 def first_element(array)
   # return the first element of the array
+  first_element(array).first
 end
 
 def third_element(array)
